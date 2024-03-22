@@ -1,15 +1,15 @@
-# Receipt-Processor-Challenge
+# Receipt Processor Challenge
 
-This project is a web service that processes receipts according to the provided API. Since the challenge documentation states that the api need not be ready for production, it was designed to simplify aspects such as authentication, logging, port routing, etc.
+This project is a web service that processes receipts according to the provided API(s). Since the challenge documentation states that the api need not be ready for production, it was designed to simplify aspects such as authentication, logging, port routing, etc.
 
 # Command Line Arguements
 
-noAuthMode: Runs the application in test mode without authentication.
-debugMode: Enables debug mode for logging to assist with troubleshooting.
-logToFile: Enables logging to a file.
-logFileName: Overrides the name of the log file.
+- noAuthMode: Runs the application in test mode without authentication.
+- debugMode: Enables debug mode for logging to assist with troubleshooting.
+- logToFile: Enables logging to a file.
+- logFileName: Overrides the name of the log file.
 
-- Note: for challenge simplicity logToFile/logFileName options are not fully supported when running in a docker container. I wanted to avoid the need for the reviewer to mount disks, copy additional files, etc.
+Note: for challenge simplicity logToFile/logFileName options are not fully supported when running in a docker container. I wanted to avoid the need for the reviewer to mount disks, copy additional files, etc.
 
 # Installation and Usage
 
@@ -29,9 +29,9 @@ Before running tests, ensure that the API server is running. Then simply execute
 
 # File Descriptions
 
-apiAuth.go: Handles authentication for the API.
-main.go: Entry point of the application. Sets up routes and handles HTTP requests.
-utils.go: Provides utility functions for processing receipts and calculating points.
+- apiAuth.go: Handles authentication for the API.
+- main.go: Entry point of the application. Sets up routes and handles HTTP requests.
+- utils.go: Provides utility functions for processing receipts and calculating points.
 
-api_test.go: Contains test cases for the API endpoints (including the provided example requests).
-utils_unit_test.go: Test cases for the utility functions that help to caclulate receipt points.
+- api_test.go: Contains test cases for the API endpoints (including the provided example requests).
+- utils_unit_test.go: Test cases for the utility functions that help to caclulate receipt points.
