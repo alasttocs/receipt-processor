@@ -4,7 +4,7 @@ This project is a web service that processes receipts according to the provided 
 
 # Command Line Arguements
 
-- noAuthMode: Runs the application in test mode without authentication.
+- `-noAuthMode`: Runs the application in test mode without authentication.
 - debugMode: Enables debug mode for logging to assist with troubleshooting.
 - logToFile: Enables logging to a file.
 - logFileName: Overrides the name of the log file.
