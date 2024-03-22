@@ -9,7 +9,7 @@ This project is a web service that processes receipts according to the provided 
 - `-log`: Enables logging to a file.
 - `-logFile`: Overrides the name of the log file.
 
-Note: for challenge simplicity logToFile/logFileName options are not fully supported when running in a docker container. I wanted to avoid the need for the reviewer to mount disks, copy additional files, etc.
+_Note: for challenge simplicity logToFile/logFileName options are not fully supported when running in a docker container. I wanted to avoid the need for the reviewer to mount disks, copy additional files, etc._
 
 # Installation and Usage
 
