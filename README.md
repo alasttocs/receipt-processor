@@ -25,7 +25,9 @@ Running Locally can be acheived with standard go commands: `go build -o fetchAPI
 
 # Running Tests
 
-Before running tests, ensure that the API server is running. Then simply execute the standard go command `go test`
+Tests are configured to run locally. Before running tests, ensure that the API server is running (either within Docker or locally). Then simply execute the standard go command `go test`
+
+_Note: Logging to tests are written to `logs/testlogfile.log`_
 
 # File Descriptions
 
