@@ -29,9 +29,9 @@ Before running tests, ensure that the API server is running. Then simply execute
 
 # File Descriptions
 
-- apiAuth.go: Handles authentication for the API.
-- main.go: Entry point of the application. Sets up routes and handles HTTP requests.
-- utils.go: Provides utility functions for processing receipts and calculating points.
+- **apiAuth.go:** Handles authentication for the API.
+- **main.go:** Entry point of the application. Sets up routes and handles HTTP requests.
+- **utils.go:** Provides utility functions for processing receipts and calculating points.
 
-- api_test.go: Contains test cases for the API endpoints (including the provided example requests).
-- utils_unit_test.go: Test cases for the utility functions that help to caclulate receipt points.
+- **api_test.go:** Contains test cases for the API endpoints (including the provided example requests).
+- **utils_unit_test.go:** Test cases for the utility functions that help to caclulate receipt points.
