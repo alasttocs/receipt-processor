@@ -4,10 +4,10 @@ This project is a web service that processes receipts according to the provided 
 
 # Command Line Arguements
 
-- `-noAuth`: Runs the application without authentication.
+- `-noauth`: Runs the application without authentication.
 - `-debug`: Enables debug mode for logging to assist with troubleshooting.
 - `-log`: Enables logging to a file.
-- `-logFile`: Overrides the name of the log file.
+- `-logfile`: Overrides the name of the log file.
 
 _Note: for challenge simplicity logToFile/logFileName options are not fully supported when running in a docker container. I wanted to avoid the need for the reviewer to mount disks, copy additional files, etc._
 
@@ -25,7 +25,7 @@ Running Locally can be acheived with standard go commands: `go build -o fetchAPI
 
 # Running Tests
 
-Tests are configured to run locally. Before running tests, ensure that the API server is running (either within Docker or locally). Then simply execute the standard go command `go test`
+Tests are configured to run locally. Before running tests, ensure that the API server is running (either within Docker or locally) without the `-noauth` flag provided (there is a test for authentication). Then simply execute the standard go command `go test`
 
 _Note: Logging to tests are written to `logs/testlogfile.log`_
 
