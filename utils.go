@@ -9,7 +9,7 @@ import (
 )
 
 // function to calculate points based on retailer name
-// One point for every alphanumeric character in the retailer name
+// one point for every alphanumeric character in the retailer name
 func retailerNamePoints(retailer string) int {
 	points := 0
 	for _, char := range retailer {

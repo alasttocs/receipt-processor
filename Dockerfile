@@ -10,6 +10,6 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o fetchAPI
 
 EXPOSE 8080
 
-# Set a default CMD instruction
+# Set a default instruction
 ENTRYPOINT ["./fetchAPI"]
 

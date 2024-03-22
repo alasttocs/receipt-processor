@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-// simplified API keys in memory, want to be able to generate predicatble keys
+// simplified API keys in memory, want to be able to generate predicatble keys for testing
 var APIKeys = map[string]bool{}
 
 // function to create a hash of the API keys and store in memory

@@ -50,7 +50,7 @@ func TestRetailerNamePoints(t *testing.T) {
 	if resultPoints != expectedPoints {
 		t.Errorf("Expected %d, got %d", expectedPoints, resultPoints)
 	}
-	// name with special characters
+	// name with special character
 	expectedPoints = 6
 	resultPoints = retailerNamePoints("abc!!$123")
 	if resultPoints != expectedPoints {

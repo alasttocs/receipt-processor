@@ -111,7 +111,7 @@ func sendRequestAndGetPoints(reqBody map[string]interface{}, expectedPoints int)
 		Points int `json:"points"`
 	}
 
-	// Build request to process receipt
+	// Build request to process receipt and get points
 	reqBodyBytes, err := json.Marshal(reqBody)
 	if err != nil {
 		return err

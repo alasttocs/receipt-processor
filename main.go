@@ -140,7 +140,7 @@ func BadRoute(w http.ResponseWriter, _ *http.Request) {
 	http.Error(w, "404 not found", http.StatusNotFound)
 }
 
-// function to calculate points for a given receipt
+// function to calculate points for given receipt
 // Allows for calulation to continue even if there are issues with reciept data,
 // receipts is marked as having a calculation error, but the total points are still calculated
 func CalculatePoints(receipt Receipt) int {
