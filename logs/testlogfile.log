@@ -1,0 +1,8 @@
+2024/03/22 13:20:19 utils.go:34: (receiptTotalPoints) Error parsing total:  strconv.ParseFloat: parsing "": invalid syntax
+2024/03/22 13:20:19 utils.go:71: (itemPoints) Error parsing item price:  strconv.ParseFloat: parsing "": invalid syntax
+2024/03/22 13:20:19 utils.go:93: (dateAndTimePoints) Error parsing purchase date:  parsing time "2024-01-00": day out of range
+2024/03/22 13:20:19 utils.go:107: (dateAndTimePoints) Error parsing purchase time:  parsing time "25:00": hour out of range
+2024/03/22 13:20:57 utils.go:34: (receiptTotalPoints) Error parsing total:  strconv.ParseFloat: parsing "": invalid syntax
+2024/03/22 13:20:57 utils.go:71: (itemPoints) Error parsing item price:  strconv.ParseFloat: parsing "": invalid syntax
+2024/03/22 13:20:57 utils.go:93: (dateAndTimePoints) Error parsing purchase date:  parsing time "2024-01-00": day out of range
+2024/03/22 13:20:57 utils.go:107: (dateAndTimePoints) Error parsing purchase time:  parsing time "25:00": hour out of range
