@@ -17,9 +17,9 @@ The application will be accessible at http://localhost:8080
 
 To build the Docker Image: `docker build -t fetchapi .`
 
-To run the Docker container without authorization: `docker run -p 8080:8080 fetchapi -noauth`
+To run the Docker container **without** authentication: `docker run -p 8080:8080 fetchapi -noauth`
 
-To run the Docker container with authorization simply remove the flag: `docker run -p 8080:8080 fetchapi`
+To run the Docker container **with** authentication simply remove the flag: `docker run -p 8080:8080 fetchapi`
 
 Running Locally can be acheived with standard go commands: `go build -o fetchAPI` & `./fetchAPI`
 
