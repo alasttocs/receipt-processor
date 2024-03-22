@@ -5,9 +5,9 @@ This project is a web service that processes receipts according to the provided 
 # Command Line Arguements
 
 - `-noauth`: Runs the application without authentication.
-- `-debug`: Enables debug mode for logging to assist with troubleshooting.
+- `-debug`: Enables debug mode for additional logging to assist with troubleshooting.
 - `-log`: Enables logging to a file.
-- `-logfile`: Overrides the name of the log file.
+- `-logfile`: Overrides the name of the default log file.
 
 _Note: for challenge simplicity logToFile/logFileName options are not fully supported when running in a docker container. I wanted to avoid the need for the reviewer to mount disks, copy additional files, etc._
 
